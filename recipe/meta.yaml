@@ -1,5 +1,5 @@
-{% set version = "0.1.1" %}
-{% set build = 1 %}
+{% set version = "0.1.2" %}
+{% set build = 0 %}
 
 package:
   name: pygotm
@@ -8,7 +8,7 @@ package:
 source:
   #git_url: https://github.com/BoldingBruggeman/pygotm.git
   url: https://github.com/BoldingBruggeman/pygotm/releases/download/v{{ version }}/code.tar.gz
-  sha256: 91bd4a64c288e129365e655fd936761d98490f4fb8d03897eb6c0a7aeb356e87
+  sha256: 7cb74f7645b7df537fb42de4534f03ead2d849794beca9d352502305e140f9a2
 
 build:
   number: {{ build }}
